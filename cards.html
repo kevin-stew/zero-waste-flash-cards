@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="static/style.css">
+<title>Flash Card Generator</title>
+
+
+
+</head>
+<body>
+
+<!-- <div class="page_pc">
+</div> -->
+<div class="everything">
+
+    <div class="page entry-data" >
+        
+        <div class="card">
+            <input id="front-1" type="text" placeholder="Front 1"/>
+            <textarea id="back-1" cols="30" rows="10" class="back-text" maxlength="325" placeholder="Back of 1"></textarea>
+        </div>
+        <div class="card">
+            <input id="front-2" type="text" placeholder="Front 2"/>
+            <textarea id="back-2" cols="30" rows="10" class="back-text" maxlength="325" placeholder="Back of 2"></textarea>
+        </div>
+        <div class="card">
+            <input id="front-3" type="text" placeholder="Front 3"/>
+            <textarea id="back-3" cols="30" rows="10" class="back-text" maxlength="325" placeholder="Back of 3"></textarea>
+        </div>
+        
+        <div class="card">
+            <input id="front-4" type="text" placeholder="Front 4"/>
+            <textarea id="back-4" cols="30" rows="10" class="back-text" maxlength="325" placeholder="Back of 4"></textarea>
+        </div>
+        <div class="card">
+            <input id="front-5" type="text" placeholder="Front 5"/>
+            <textarea id="back-5" cols="30" rows="10" class="back-text" maxlength="325" placeholder="Back of 5"></textarea>
+        </div>
+        <div class="card">
+            <input id="front-6" type="text" placeholder="Front 6"/>
+            <textarea id="back-6" cols="30" rows="10" class="back-text" maxlength="325" placeholder="Back of 6"></textarea>
+        </div>
+        
+        <div class="card">
+            <input id="front-7" type="text" placeholder="Front 7"/>
+            <textarea id="back-7" cols="30" rows="10" class="back-text" maxlength="325" placeholder="Back of 7"></textarea>
+        </div>
+        <div class="card">
+            <input id="front-8" type="text" placeholder="Front 8"/>
+            <textarea id="back-8" cols="30" rows="10" class="back-text" maxlength="325" placeholder="Back of 8"></textarea>
+        </div>
+        <div class="card">
+            <input id="front-9" type="text" placeholder="Front 9"/>
+            <textarea id="back-9" cols="30" rows="10" class="back-text" maxlength="325" placeholder="Back of 9"></textarea>
+        </div>
+        
+        <div class="card">
+            <input id="front-10" type="text" placeholder="Front 10"/>
+            <textarea id="back-10" cols="30" rows="10" class="back-text" maxlength="325" placeholder="Back of 10"></textarea>
+        </div>
+        <div class="card">
+            <input id="front-11" type="text" placeholder="Front 11"/>
+            <textarea id="back-11" cols="30" rows="10" class="back-text" maxlength="325" placeholder="Back of 11"></textarea>
+        </div>
+        <div class="card">
+            <input id="front-12" type="text" placeholder="Front 12"/>
+            <textarea id="back-12" cols="30" rows="10" class="back-text" maxlength="325" placeholder="Back of 12"></textarea>
+        </div>
+    </div>
+
+    <!-- ---------------- PAGE GUIDES ---------------- -->
+    <div class="page guide">
+        <div class="page-indicator bg-info d-flex justify-content-center">
+            <h3 class="align-self-center justify-self-center">Back ↓↓↓↓↓↓</h3>
+        </div>
+
+        <div class="page-indicator bg-warning d-flex justify-content-center">
+            <h3 class="align-self-center justify-self-center ">Front ↓↓↓↓↓↓</h3>
+        </div>
+    </div>
+
+    <div class="page" id="print-div">
+        <!-- ---------------- BACK DESCRIPTION OF CARDS ---------------- -->
+        <div class="card" >
+            <div class="card-content-back">
+                <p id="back-1-card">B 1</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content-back">
+                <p id="back-2-card">B 2</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content-back">
+                <p id="back-3-card">B 3</p>
+            </div>
+        </div>
+
+        <div class="card" >
+            <div class="card-content-back">
+                <p id="back-4-card">B 4</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content-back">
+                <p id="back-5-card">B 5</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content-back">
+                <p id="back-6-card">B 6</p>
+            </div>
+        </div>
+        <div class="card" >
+            <div class="card-content-back">
+                <p id="back-7-card">B 7</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content-back">
+                <p id="back-8-card">B 8</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content-back">
+                <p id="back-9-card">B 9</p>
+            </div>
+        </div>
+        <div class="card" >
+            <div class="card-content-back">
+                <p id="back-10-card">B 10</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content-back">
+                <p id="back-11-card">B 11</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content-back">
+                <p id="back-12-card">B 12</p>
+            </div>
+        </div>
+        
+        <!-- ---------------- FRONT TILE OF CARDS ---------------- -->
+        <div class="card">
+            <div class="card-content-front">
+                <h1 id="front-3-card">F 3</h1>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content-front">
+                <h1 id="front-2-card">F 2</h1>
+            </div>
+        </div>
+        <div class="card" >
+            <div class="card-content-front">
+                <h1 id="front-1-card">F 1</h1>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content-front">
+                <h1 id="front-6-card">F 6</h1>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content-front">
+                <h1 id="front-5-card">F 5</h1>
+            </div>
+        </div>
+        <div class="card" >
+            <div class="card-content-front">
+                <h1 id="front-4-card">F 4</h1>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content-front">
+                <h1 id="front-9-card">F 9</h1>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content-front">
+                <h1 id="front-8-card">F 8</h1>
+            </div>
+        </div>
+        <div class="card" >
+            <div class="card-content-front">
+                <h1 id="front-7-card">F 7</h1>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content-front">
+                <h1 id="front-12-card">F 12</h1>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content-front">
+                <h1 id="front-11-card">F 11</h1>
+            </div>
+        </div>
+        <div class="card" >
+            <div class="card-content-front">
+                <h1 id="front-10-card">F 10</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ---------------- PRINT BUTTON ---------------- -->
+    <button class="btn btn-outline-success" id="print" onclick="printDiv('print-div');" >Print Flash Cards</button>
+
+<!-- div page-form -->
+</div>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="static/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+/* div{border:red solid 1px} */
+.everything{
+    display: flex;
+    flex-direction: row;
+    /* display: grid; */
+    /* grid-template-columns: auto, auto, auto; */
+    width: 26in;
+}
+button{
+  margin: 1%;
+}
+
+.card-inputs{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    height: 23in;
+    width: 8.5in;
+}
+.entry-data{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.guide{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1in;
+  height: 23in;
+  /* border: black dashed px; */
+  margin-right: 2%;
+}
+.page-indicator{
+  height: 11.4in;
+}
+.guide h3{
+  transform: rotate(-90deg)
+}
+
+.card{
+  border: none;
+  border-left: lightgrey 1px dotted;
+  border-bottom: lightgrey 1px dotted;
+    border-radius: 0px;
+    /* height:25%; */
+    height:12.5%;
+    width:33.333%;
+    padding:5px;
+}
+.card-content-front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+    /* background-color:lightgoldenrodyellow; */
+}
+.card-content-back{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-grow: 1;
+    white-space:pre-wrap;
+    /* text-align: left; */
+    /* background-color:lightgoldenrodyellow; */
+    overflow:hidden;
+    padding:5%;
+}
+
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    #print-div, #print-div * {
+      visibility: visible;
+    }
+    #print-div {
+      position: absolute;
+      height: 200%;
+      width: 100%;
+    }
+  }
+      /* left: -20px;
+    top: -20px; */
